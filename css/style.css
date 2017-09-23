@@ -1,0 +1,60 @@
+body{
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	min-height: 210px;
+	background: #eb6e1a;
+	color: #ffffff;
+	padding: 50px 0 0 0;
+}
+
+header .logo_text{
+	font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1;
+}
+
+header .logo_text span{
+    font-weight: 400;
+    font-size: 53px;
+}
+
+header .text{
+    font-size: 22px;
+    padding: 0 0 0 20px;
+    font-weight: 300;
+}
+
+header .phone{
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.4;
+}
+
+header .phone a{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+header .phone a:hover{
+    text-decoration: none;
+}
+
+header .phone span{
+    background: #1b4464;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0px 12px 0 0;
+    padding: 5px 0 0 0px;
+    text-align: center;
+}
