@@ -147,10 +147,10 @@
         </div>        
         <div class="row select_body_show" id="step_4" style="display: none;">
           <div class="col-md-12">
-            <input type="tetx" class="input_text" name="phone" required="" placeholder="Введите телефон" style="margin: 0 0 30px 0;">
+            <input type="tetx" class="input_text" name="phone" required="required" placeholder="Введите телефон" style="margin: 0 0 30px 0;">
           </div>
           <div class="col-md-12">
-            <input type="tetx" class="input_text" name="email" required="" placeholder="Введите почту">
+            <input type="tetx" class="input_text" name="email" required="required" placeholder="Введите почту">
           </div>
         </div>        
         <div class="row select_body_show" id="step_5" style="display: none;">
@@ -171,6 +171,38 @@
         </div>
       </div>
     </form>
+    </section>
+    <section id="company" class="pt_100 pb_100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="info">
+              <h1>Наша компания занимается монтажем систем отопления под ключ c 2011 года</h1>
+              <div class="text">
+                <p>
+                  Работаем с объектами любого масштаба: от частных домов, коттеджей, до коттеджных поселков  и многоквартирных домов.
+                </p>                
+                <p>
+                  Если вы решите выполнить монтаж системы отопления своими руками, мы подготовим Вам проект отопления и укомплектуем всеми материалами
+                </p>                
+                <p>
+                  Мы готовы проконсультировать вас по любому вопросу и помочь с выбором системы отопления.
+                </p>                
+                <p>
+                  Оставьте заявку в форме ниже, и мы перезвоним вам уже через 5 минут в рабочее время.
+                </p>
+              </div>
+              <div class="form">
+                <form action="send.php">
+                  <input type="text" name="phone" placeholder="Введите номер" required="required" class="input_text">
+                  <input type="hidden" name="form" value="Перезвоните мне">
+                  <input type="submit" name="submit" value="Перезвоните мне" class="link">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     
     <footer>

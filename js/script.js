@@ -63,6 +63,7 @@ jQuery(document).ready(function ($) {
 
   	$('.link').click(function(event) {
   		var step = $(this).attr('data_to').split('_')[1];
+  		var name = {2:'Выберите тип топлива?', 3:'Укажите площадь дома?', 4:'Оставьте свои контакты?', 5:'Заявка принята!'};
 	  	if($('#more').attr('data_ok') == 'ok'){
 	  		$('#select .answer ul li[data-activ='+step+']').addClass('activ');
 
@@ -73,6 +74,7 @@ jQuery(document).ready(function ($) {
 	  		$('#more').attr('data_ok', '');
 	  		$(this).blur();
 	  		$(this).next().hide();
+	  		$('#select_body h2').html(name[step]);
 
 	  		if(step == 4){
 	  			$(this).hide();
