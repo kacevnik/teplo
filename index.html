@@ -80,7 +80,10 @@
               <p>Получите бесплатный<br>
                 расчет системы отопления<br>
                 прямо сейчас</p>
-              <a href="">Рассчитать стоимость</a>
+              <a href="#select">Рассчитать стоимость</a>
+            </div>
+            <div class="arrow_douwn">
+              
             </div>
           </div>
           <div class="col-md-6 img">
@@ -88,6 +91,86 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="select" class="pt_100 pb_50">
+      <div class="container">
+        <div class="row header">
+          <div class="col-md-8">
+            <h1>Рассчитайте стоимость<br>
+            системы отопления прямо сейчас</h1>
+            <p>Ответьте на несколько вопросов и получите индивидуальный расчет стоимости строительства канализации для вашего объекта</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="answer">
+              <span class="ans">Вопрос:</span>
+              <ul>
+                <li class="activ" data-activ="1"><span>1</span><div></div></li>
+                <li data-activ="2"><span>2</span><div></div></li>
+                <li data-activ="3"><span>3</span><div></div></li>
+                <li data-activ="4"><span>4</span><div></div></li>
+                <li data-activ="5"><span>5</span><div></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="select_body" class="pt_50 pb_50">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 header">
+            <h2>Для какого объекта нужно отопление?</h2>
+          </div>
+        </div>
+        <form method="post" action="send.php">
+          <input type="hidden" name="home" value="">
+          <input type="hidden" name="fuel" value="">
+        <div class="row select_body_show" id="step_1">
+          <div class="col-md-3 item"><a href="" class="home_1" style="padding-top: 20px;">Дачный дом</a></div>
+          <div class="col-md-3 item"><a href="" class="home_2" style="padding-top: 20px;">Каттедж</a></div>
+          <div class="col-md-3 item"><a href="" class="home_3" style="padding-top: 20px;">Квартира</a></div>
+          <div class="col-md-3 item"><a href="" class="home_4" style="padding-top: 10px;">Многоквартирный<br>дом</a></div>  <div class="col-md-3 item"><a href="" class="home_5" style="padding-top: 20px;">Магазин</a></div>
+          <div class="col-md-3 item"><a href="" class="home_6" style="padding-top: 20px;">Производство</a></div>
+          <div class="col-md-3 item"><a href="" class="home_7" style="padding-top: 20px;">Торговый центр</a></div>
+          <div class="col-md-3 item"><a href="" class="home_8" style="padding-top: 10px;">Коттеджный<br>поселок</a></div>
+        </div>        
+        <div class="row select_body_show" id="step_2" style="display: none;">
+          <div class="col-md-3 item"><a href="" class="home_1" style="padding-top: 20px;">Твердое топливо</a></div>
+          <div class="col-md-3 item"><a href="" class="home_1" style="padding-top: 20px;">Газ</a></div>
+          <div class="col-md-3 item"><a href="" class="home_1" style="padding-top: 20px;">Электричество</a></div>
+          <div class="col-md-3 item"><a href="" class="home_1" style="padding-top: 20px;">Другое</a></div>
+        </div>        
+        <div class="row select_body_show" id="step_3" style="display: none;">
+          <div class="col-md-4"><input type="tetx" class="input_text" name="kvadratura" required="" placeholder="Введите площадь"></div>
+        </div>        
+        <div class="row select_body_show" id="step_4" style="display: none;">
+          <div class="col-md-12">
+            <input type="tetx" class="input_text" name="phone" required="" placeholder="Введите телефон" style="margin: 0 0 30px 0;">
+          </div>
+          <div class="col-md-12">
+            <input type="tetx" class="input_text" name="email" required="" placeholder="Введите почту">
+          </div>
+        </div>        
+        <div class="row select_body_show" id="step_5" style="display: none;">
+          <div class="col-md-12">
+            <div class="thanks">
+               Спасибо!<br><span>Скоро с Вами свяжется наш специалист</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer">
+              <a href="" class="link more" data_to="step_2" id="more" data_ok="">Далее</a>
+              <a href="" class="link link_null">У меня другой объект</a>
+              <input type="submit" name="submit" value="Получить расчет" style="display: none;" class="link" data_to="step_2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
     </section>
     
     <footer>
