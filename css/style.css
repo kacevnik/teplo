@@ -351,3 +351,69 @@ h1{
     padding: 10px 10px;
 }
 
+#think h5{
+    font-size: 31px;
+    line-height: 0.8;
+    padding: 0 0 40px 0;
+}
+
+#think img{
+    width: 100%;
+}
+
+#think .info .item{
+    min-height: 65px;
+    padding: 0 0 0 75px;
+    font-size: 21px;
+    margin: 0 0 25px 0;
+    font-weight: 700;
+}
+
+#think .info .ico_1{
+    background: url(../img/temp/t_ico_1.png)no-repeat;
+    background-size: contain;
+}
+
+#think .info .ico_2{
+    background: url(../img/temp/t_ico_2.png)no-repeat;
+    background-size: contain;
+}
+
+#think .info .ico_3{
+    background: url(../img/temp/t_ico_3.png)no-repeat;
+    background-size: contain;
+}
+
+#think .info .ico_4{
+    background: url(../img/temp/t_ico_4.png)no-repeat;
+    background-size: contain;
+}
+
+#check_pdf{
+    background: #e9f0f5;
+}
+
+#check_pdf h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#check_pdf input[type="text"]{
+    margin: 0 20px 0 0;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 14px;
+}
+
+#check_pdf input[type ="submit"]{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 14px 35px;
+}
+
+#check_pdf span{
+    display: inline-block;
+    color: #a8a8a8;
+    margin: 15px 0 0 0;
+}
+
