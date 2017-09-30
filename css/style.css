@@ -417,3 +417,44 @@ h1{
     margin: 15px 0 0 0;
 }
 
+#slider .owl-carousel{
+    margin: 40px 0 0 0;
+}
+
+#slider .video{
+    background: url(../img/temp/play_video.png)no-repeat center;
+    min-height: 465px;
+    border-radius: 8px;
+    border: 3px solid #bbbecc;
+    cursor: pointer;
+}
+
+#slider .img{
+    min-height: 218px;
+    border: 3px solid #bbbecc;
+    margin: 0 0 30px 0;
+    border-radius: 8px;
+}
+
+.arrow_prev_owl{
+    background: url(../img/temp/slider_arrow_left.png)no-repeat;
+    width: 85px;
+    height: 142px;
+    position: absolute;
+    top: 30%;
+    left: -95px;
+}
+
+.arrow_next_owl{
+    background: url(../img/temp/slider_arrow_right.png)no-repeat;
+    width: 85px;
+    height: 142px;
+    position: absolute;
+    top: 30%;
+    right: -95px;
+}
+
+.arrow_next_owl:hover, .arrow_prev_owl:hover{
+    opacity: 0.7;
+}
+
