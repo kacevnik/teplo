@@ -8,19 +8,58 @@ jQuery(document).ready(function ($) {
 		$(".fancybox-close-small").trigger("click");		
 	});
 
+
+    //Кастомные табы
+
+    $('#vibor_1 .item a').click(function(event) {
+      $('#vibor_1 .item').removeClass('activ');
+      $(this).parent().addClass('activ');
+      $('#vibor_2 .tabs').hide();
+      $('#vibor_2 #' + $(this).parent().attr('data-tab')).fadeIn(300);
+      return false;
+    });
+
     //Иницилизация и настройка Галереи-Слайдера OWL-carusel
-  	$(".owl-carousel").owlCarousel({
-  		items : 1,
-  		loop:true,
-  		autoplaySpeed:1200,
-  		navSpeed:1200,
-  		autoplay:5000,
-  		nav:true,
-  		navText: ['<div class="arrow_prev_owl"></div>', '<div class="arrow_next_owl"></div>']
-  	});
+    $("#slider_owl_1").owlCarousel({
+      items : 1,
+      loop:true,
+      autoplaySpeed:1200,
+      navSpeed:1200,
+      autoplay:5000,
+      nav:true,
+      navText: ['<div class="arrow_prev_owl"></div>', '<div class="arrow_next_owl"></div>']
+    });     
+
+    $("#slider_owl_2").owlCarousel({
+      items : 1,
+      loop:true,
+      autoplaySpeed:1200,
+      navSpeed:1200,
+      autoplay:5000,
+      nav:true,
+      navText: ['<div class="arrow_prev_owl"></div>', '<div class="arrow_next_owl"></div>']
+    });     
+
+    $("#slider_owl_3").owlCarousel({
+      items : 1,
+      loop:true,
+      autoplaySpeed:1200,
+      navSpeed:1200,
+      autoplay:5000,
+      nav:true,
+      navText: ['<div class="arrow_prev_owl"></div>', '<div class="arrow_next_owl"></div>']
+    }); 
+
+    $('#slider_owl_3 .arrow_next_owl').on('click', function(event) {
+      $('#slider_owl_2 .arrow_next_owl').trigger('click');
+    });    
+
+    $('#slider_owl_3 .arrow_prev_owl').on('click', function(event) {
+      $('#slider_owl_2 .arrow_prev_owl').trigger('click');
+    });
 
   	//Плавная прокрутка
-  	$("a[href*='#']").bind("click", function(e){
+  $("a[href*='#']").bind("click", function(e){
 		var anchor = $(this);
 		$('html, body').stop().animate({
 			scrollTop: $(anchor.attr('href')).offset().top
