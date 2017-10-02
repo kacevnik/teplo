@@ -72,6 +72,10 @@
 	#check_pdf h4 {
 	    text-align: center;
 	}
+
+	#slider .video {
+	    margin: 0 0 30px 0;
+	}
 }
 
 @media (max-width: 680px) {
@@ -95,6 +99,10 @@
 	    background-size: 46px;
 	    padding: 20px 0 0 64px;
 	    min-height: 60px;
+	}
+
+	#slider .arrow_next_owl {
+	    display: none;
 	}
 }
 
@@ -164,6 +172,10 @@
 	#check_pdf input{
 	    width: 80%;
 	    margin-bottom: 20px;
+	}
+
+	#slider .video {
+	    min-height: 314px;
 	}
 }
 
