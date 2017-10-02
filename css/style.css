@@ -822,5 +822,26 @@ footer .phone span{
     text-align: center;
 }
 
+.popup{
+    display: none;
+    width: 330px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.popup h4{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.popup input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+a[title='thanks']{
+    display: none;
+}
+
 
 

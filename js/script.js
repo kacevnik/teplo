@@ -5,7 +5,8 @@ jQuery(document).ready(function ($) {
     $('form').ajaxForm(function(){
 		//$("a[title='Close']").trigger("click");
 		$('form').clearForm();
-		$(".fancybox-close-small").trigger("click");		
+		$(".fancybox-close-small").trigger("click");
+    $("a[title='thanks']").trigger("click");	
 	});
 
 

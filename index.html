@@ -35,7 +35,7 @@
           <div class="col-md-4">
             <div class="phone">
               <span><i class="fa fa-phone"></i></span>+8 (383) 383-38-33<br>
-              <a href="">Перезвоните мне</a>
+              <a data-fancybox data-src="#back" href="javascript:;">Перезвоните мне</a>
             </div>
           </div>
         </div>
@@ -592,6 +592,27 @@
         </div>
       </div>
     </footer>
+
+    <!-- popUp -->
+
+    <div class="popup" id="back">
+      <h4>Укажите номер</h4>
+        <form action="send.php" method="post">
+          <input type="text" class="input_text" required="" placeholder="Укажите номер" name="phone">
+          <input type="hidden" value="Обратный звонок" name="form">
+          <input type="submit" name="submit" value="Перезвоните" class="link">
+        </form>
+        <p>Наш специолист свяжеться с вами в течении 5 минут</p>
+    </div>
+
+    <a data-fancybox data-src="#thanks" href="javascript:;" title="thanks">Спасибо</a>
+
+    <div class="popup" id="thanks">
+      <h4>Спасибо</h4>
+        <p>Ваша заявка принята</p>
+    </div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mikeinput.min.js"></script>

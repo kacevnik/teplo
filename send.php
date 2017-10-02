@@ -25,7 +25,7 @@ $mail->Password = 'Z9564665z';                        // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
 
-$mail->setFrom('prof.zabor-nvs@mail.ru', 'Столы под заказ');
+$mail->setFrom('prof.zabor-nvs@mail.ru', 'Тепловые решения');
 $mail->addAddress($adminEmail, $adminEmail);          // Add a recipient            
 
 $mail->isHTML(true);                                  // Set email format to HTML
