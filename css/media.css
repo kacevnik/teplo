@@ -165,6 +165,15 @@
 	    font-size: 18px;
 	    text-align: center;
 	}
+
+	#ingener {
+	    background-size: 0px;
+	    text-align: center;
+	}	
+
+	#ingener .form input[type="submit"] {
+	    width: 38%;
+	}
 }
 
 @media (max-width: 680px) {
@@ -196,6 +205,15 @@
 
 	#slider_d {
 	    padding-bottom: 140px;
+	}
+
+	#ingener .form input[type="submit"] {
+	    width: 100%;
+	}
+
+	#ingener .form input[type="text"] {
+	    width: 100%;
+	    margin-bottom: 20px;
 	}
 }
 
@@ -273,6 +291,10 @@
 
 	#slider_d {
 	    padding-bottom: 341px;
+	}
+
+	#ingener .form {
+	    padding: 20px;
 	}
 }
 
