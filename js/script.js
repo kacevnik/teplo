@@ -88,10 +88,10 @@ jQuery(document).ready(function ($) {
   		$('#select_body .select_body_show .item a').removeClass('selected');
   		$(this).addClass('selected');
   		if($('#more').attr('data_to') == 'step_2'){
-  			$('input[name="home"]').val($(this).html());
+  			$('#select_body input[name="home"]').val($(this).html());
   		}  		
   		if($('#more').attr('data_to') == 'step_3'){
-  			$('input[name="fuel"]').val($(this).html());
+  			$('#select_body input[name="fuel"]').val($(this).html());
   		}
   		$('#more').attr('data_ok', 'ok');
   		return false;
