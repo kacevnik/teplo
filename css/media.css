@@ -30,6 +30,56 @@
 	    border-radius: 22px;
 	    margin: 30px 0 40px 0;
 	}
+
+	#top {
+	    background-size: 0%;
+	}
+
+	h1 {
+	    text-align: center;
+	}
+
+	#top h5 {
+	    font-size: 26px;
+	    text-align: center;
+	}
+
+	#top .row_info_item {
+	    width: 30%;
+	    margin-left: 1%;
+	}
+
+	#select .header p {
+	    text-align: center;
+	}
+
+	#select_body .select_body_show .item a {
+	    background-size: 60px;
+	}
+}
+
+@media (max-width: 680px) {
+	#top .row_info_item {
+	    width: 100%;
+	}
+
+	#top .clock {
+	    background-size: 46px;
+	    padding: 20px 0 0 64px;
+	    min-height: 60px;
+	}
+
+	#top .car {
+	    background-size: 60px;
+	    padding: 20px 0 0 64px;
+	    min-height: 60px;
+	}
+
+	#top .money {
+	    background-size: 46px;
+	    padding: 20px 0 0 64px;
+	    min-height: 60px;
+	}
 }
 
 @media (max-width: 470px) {
@@ -46,6 +96,26 @@
 	    height: 36px;
 	    width: 36px;
 	}
+
+	h1 {
+	    font-size: 28px;
+	}
+
+	#select .header p {
+	    font-size: 14px;
+	}
+
+	#select .answer ul li span {
+	    width: 25px;
+	    height: 25px;
+	    font-size: 12px;
+	}
+
+	#select .answer ul li div {
+	    width: 10px;
+	    top: 14px;
+	    margin: 0 4px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -56,5 +126,9 @@
 
 	header .phone {
 	    font-size: 26px;
+	}
+
+	#select_body .select_body_show .item a {
+	    font-size: 14px;
 	}
 }
