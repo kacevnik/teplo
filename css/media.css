@@ -76,6 +76,95 @@
 	#slider .video {
 	    margin: 0 0 30px 0;
 	}
+
+	#vibor_1 .activ a {
+	    padding: 143px 10px 0px 10px;
+	    min-height: 193px;
+	    font-size: 12px;
+	}
+
+	#vibor_1 .activ .arrow {
+	    bottom: -48px;
+	    width: 100%;
+	}
+
+	#vibor_1 .item a {
+	    font-size: 12px;
+	}
+
+	#vibor_1 .gas a{
+	    background: #eb6e1a url('../img/temp/gas.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .gas.activ a{
+	    background: #fff url('../img/temp/gas_activ.png')no-repeat center 25%;
+		background-size: 55px;
+	}
+
+	#vibor_1 .fuel a{
+	    background: #eb6e1a url('../img/temp/fuel.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .fuel.activ a{
+	    background: #fff url('../img/temp/fuel_activ.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .electric a{
+	    background: #eb6e1a url('../img/temp/electric.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .electric.activ a{
+	    background: #fff url('../img/temp/electric_activ.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .dizel a{
+	    background: #eb6e1a url('../img/temp/dizel.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .dizel.activ a{
+	    background: #fff url('../img/temp/dizel_activ.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .combo a{
+	    background: #eb6e1a url('../img/temp/combo.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .combo.activ a{
+	    background: #fff url('../img/temp/combo_activ.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .more a{
+	    background: #eb6e1a url('../img/temp/more.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_1 .more.activ a{
+	    background: #fff url('../img/temp/more_activ.png')no-repeat center 25%;
+	    background-size: 55px;
+	}
+
+	#vibor_2 .elem {
+	    margin-bottom: 30px;
+	}
+
+	#vibor_1 h5 {
+	    font-size: 22px;
+	    text-align: center;
+	}
+
+	#slogan p {
+	    font-size: 18px;
+	    text-align: center;
+	}
 }
 
 @media (max-width: 680px) {
@@ -103,6 +192,10 @@
 
 	#slider .arrow_next_owl {
 	    display: none;
+	}
+
+	#slider_d {
+	    padding-bottom: 140px;
 	}
 }
 
@@ -177,6 +270,10 @@
 	#slider .video {
 	    min-height: 314px;
 	}
+
+	#slider_d {
+	    padding-bottom: 341px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -200,5 +297,9 @@
 
 	#check_pdf input[type ="submit"] {
 	    width: 50%;
+	}
+
+	#slider_d p {
+	    font-size: 12px;
 	}
 }
