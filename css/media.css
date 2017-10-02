@@ -215,6 +215,10 @@
 	    width: 100%;
 	    margin-bottom: 20px;
 	}
+
+	#final {
+	    background-size: 0px;
+	}
 }
 
 @media (max-width: 470px) {
@@ -295,6 +299,25 @@
 
 	#ingener .form {
 	    padding: 20px;
+	}
+
+	#final .item {
+	    font-size: 18px;
+	}
+
+	#final h5 {
+	    font-size: 24px;
+	    text-align: center;
+	}
+
+	#final input[type="text"] {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}	
+
+	#final input[type="submit"] {
+	    width: 100%;
+	    margin-bottom: 20px;
 	}
 }
 
