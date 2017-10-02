@@ -68,6 +68,10 @@
 	#think .info{
 	    margin: 30px 0 0 0;
 	}
+
+	#check_pdf h4 {
+	    text-align: center;
+	}
 }
 
 @media (max-width: 680px) {
@@ -146,6 +150,21 @@
 	    font-size: 16px;
 	    font-weight: 600;
 	}
+
+	#check_pdf h4 {
+	    font-size: 22px;
+	    font-weight: 600;
+	    margin: 0 0 40px 0;
+	}	
+
+	#check_pdf input[type="text"] {
+	    margin: 0 0 20px 0;
+	}
+
+	#check_pdf input{
+	    width: 80%;
+	    margin-bottom: 20px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -160,5 +179,14 @@
 
 	#select_body .select_body_show .item a {
 	    font-size: 14px;
+	}
+
+	#check_pdf input[type="text"] {
+	    margin: 0 0 0 0;
+	    width: 49%;
+	}
+
+	#check_pdf input[type ="submit"] {
+	    width: 50%;
 	}
 }
