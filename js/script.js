@@ -6,7 +6,13 @@ jQuery(document).ready(function ($) {
 		//$("a[title='Close']").trigger("click");
 		$('form').clearForm();
 		$(".fancybox-close-small").trigger("click");
-    $("a[title='thanks']").trigger("click");	
+    $("a[title='thanks']").trigger("click");
+    if($('input[name="submit"]').val() == 'Получить расчет'){
+      $('#select_body h2').html('Заявка принята!');
+      $('#select_body input[name="submit"]').hide();
+      $('#step_5').show();
+      $('#step_4').hide();
+    }
 	});
 
 
@@ -70,7 +76,7 @@ jQuery(document).ready(function ($) {
 	});
 
   	//Библиотека Fancybox
-  	$("[data-fancybox]").fancybox({
+  $("[data-fancybox]").fancybox({
   		padding: '300px'
 	});
 
@@ -101,7 +107,7 @@ jQuery(document).ready(function ($) {
   	});
 
 
-  	$('.link').click(function(event) {
+  	$('a.link').click(function(event) {
   		var step = $(this).attr('data_to').split('_')[1];
   		var name = {2:'Выберите тип топлива?', 3:'Укажите площадь дома?', 4:'Оставьте свои контакты?', 5:'Заявка принята!'};
 	  	if($('#more').attr('data_ok') == 'ok'){
