@@ -57,8 +57,16 @@
 	    background-size: 60px;
 	}
 
-		#company {
+	#company {
 	    background-size: 0px;
+	}
+
+	#think h5 {
+	    text-align: center;
+	}
+
+	#think .info{
+	    margin: 30px 0 0 0;
 	}
 }
 
@@ -128,6 +136,15 @@
 
 	form{
 		text-align: center;
+	}
+
+	#think h5 {
+	    font-size: 20px;
+	}
+
+	#think .info .item {
+	    font-size: 16px;
+	    font-weight: 600;
 	}
 }
 
