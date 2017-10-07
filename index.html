@@ -185,7 +185,7 @@
                 </p>
               </div>
               <div class="form">
-                <form action="send.php">
+                <form action="send.php" method="post">
                   <input type="text" name="phone" placeholder="Введите номер" required="required" class="input_text">
                   <input type="hidden" name="form" value="Перезвоните мне">
                   <input type="submit" name="submit" value="Перезвоните мне" class="link">
@@ -229,6 +229,7 @@
           <div class="col-md-6" style="text-align: center;">
             <form action="send.php" method="post">
               <input type="text" name="phone" required="" placeholder="Укажите номер" class="input_text">
+              <input type="hidden" name="form" value="Скачать чек-лист">
               <input type="submit" name="submit" value="Скачать чек-лист" class="link">
             </form>
             <span>Скачивание начнется сразу после заполнения формы</span>
@@ -529,7 +530,7 @@
             <div class="form">
               <h5>Закажите бесплатный замер прямо сейчас!</h5>
               <h3>Оставьте заявку. Наш мастер приедет и поможет выбрать место для канализации с учетом 11 параметров</h3>
-              <form action="send.php" method="action">
+              <form action="send.php" method="post">
                 <input type="text" name="name" required="" placeholder="Ваше Имя" class="input_text">
                 <input type="text" name="phone" required="" placeholder="Номер телефона" class="input_text">
                 <input type="hidden" name="form" value="Заказать бесплатный замер">
